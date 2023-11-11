@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6dd095c9c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./img/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <h1>Hey,, I'm <span>Somanna A.S</span> <br>from India</h1>
+                <p>Computer Science and Engineering graduate</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="./img/abt_me.png">
+                </div>
+                <div class="col2">
+                    <h1 class="subTitle">About me</h1>
+                    <p>As a recent graduate, my passion for coding and solving complex problems drives my eagerness to start a career in software development. I possess a strong foundation in computer science and a commitment to continuous learning, making me well-prepared to contribute to innovative projects and offer fresh perspectives to your development team.I'm Proficient in programming languages such as Java ,C, C++,HTML,CSS ,JavaScript and SQL . Demonstrates a solid grasp of data structures, algorithms, and software design principles. I'm really passionate about tackling challenges and I'm known for my exceptional focus on the finer points of problem-solving. I'm A quick learner with a robust work ethic, capable of working both independently and collaboratively in a team</p>
+
+                    <div class="tabTitle">
+                        <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('education')">Education</p>
+                        <p class="tabLinks" onclick="opentab('internship')">Internship</p>
+
+                    </div>
+                    <div class="tabContents activeTab" id="skills">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>C</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>SQL</span></li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>Engineering</span><br>&#8195;KVG College of Engineering.</li>
+                            <li><span>PU</span><br>&#8195;Coorg Institute Of Pre University College.</li>
+                            <li><span>10th</span><br>&#8195;Kendriya Vidyalaya Kodagu.</li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="internship">
+                        <ul>
+                            <li><span>Internship on MERN</span><br>&#8195;at TechCiti Technologies Private Limited Bengaluru.</li>
+                            <li><span>Internship on Full Stack Web Development</span><br>&#8195;online internship by Compsoft Technologies.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="subTitle">Projects</h1>
+            <div class="projectList">
+                <div>
+                    <h2>Sign Language Recognition System</h2>
+                    <p>This is a major project where the system detects
+                        Sign language done by the users. This project also
+                        has the feature of training new Sign to the system.</p>
+                </div>
+                <div>
+                    <h2>Binary to decimal and octal conversion app</h2>
+                    <p>Developed an Android app that converts the given
+                        binary number into decimal and octal numbers.
+                        This app is developed using Android Studio and
+                        Java.</p>                    
+                </div>
+                <div>
+                    <h2>Attendence management system</h2>
+                    <p>Made by using HTML, CSS, JS on the front end,
+                        PHP on the backend and MySql
+                        and database. This system is used to Manage the
+                        attendance of a class. Where the teacher can take
+                        the attendance of the students and maintain it.</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactInfo">
+                    <h1 class="subTitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>&#8195;somanna4222@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>&#8195;+918762451426</p>
+                    <div class="socialIcon">
+                        <a href="https://www.linkedin.com/in/somanna-a-s-75652b244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Somanna-AS"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/krithiksomanna?igshid=MTZxYmI1Njgwd2ppbw=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./img/Somanna-Resume.pdf" download class="btn rebtn">Download My Resume</a>
+                </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
