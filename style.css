@@ -257,3 +257,63 @@ nav ul li a:hover::after{
     font-size: 3vh;
     
 }
+
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #header{
+        background: url(./img/bg_img-phone.png) no-repeat right ;
+    }
+    
+    .headerText{
+        margin-top: 85%;
+        font-size: 16px;
+    }
+    .headerText h1{
+        font-size: 30px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background-color: #262626;
+        position: fixed;
+        top: -16px;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        opacity: 90%;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.75s;
+    }
+    nav ul li{
+        display: block;
+        margin: 20%;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    #menuBtn{
+        transition: 0.5s;
+    }
+
+    .col1, .col2{
+        flex-basis: 100%;
+    }
+
+    .subTitle{
+        font-size: 50px;
+    }
+    .btn{
+        padding: 14px 21px;
+    }
+}
